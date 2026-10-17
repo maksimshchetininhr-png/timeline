@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.local/
+.env*
+!.env.example
+*.log
+test-results/
+playwright-report/
+
+# Personal history, original workbooks, and database backups never belong in Git.
+*.xlsx
+*.sqlite
+*.sqlite-*
+*.db
+src/data/timeline.json
